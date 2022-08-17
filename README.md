@@ -1,23 +1,19 @@
-# parrot.live
+# josiah.live
 
-An initiative, using frames from [`terminal-parrot`](https://github.com/jmhobbs/terminal-parrot), to allow any computer with `curl` to display an _animated_ party parrot.
+This is a fork of "parrot.live", made with Goofing Josiah images.
 
 # Try it!
-```bash
-curl parrot.live
+```batch
+REM --> Terminal 1
+cd C:\path\to\josiah.live\
+node index.js
+REM --> Terminal 2
+curl localhost:3000
 ```
 
 # :partyparrot:
 <div align="center">
-  <img src='https://d.pr/i/jKluc0.gif' />
+  <img src='https://d.pr/v/emWaq6.webm'>
 </div>
 
-# Thanks
-* [jmhobbs](https://github.com/jmhobbs) for [`terminal-parrot`](https://github.com/jmhobbs/terminal-parrot), and for the animation frames
-* [Robert Koch](https://github.com/kochie/) and [Eric Jiang](https://github.com/lorderikir) for testing it, and giving feedback ⭐
 
-# More Parrots
-* [cultofthepartyparrot.com](http://cultofthepartyparrot.com/)
-* [`terminal-parrot`](https://github.com/jmhobbs/terminal-parrot)
-* [`parrotsay`](https://github.com/matheuss/parrotsay)
-* [`ascii.live`](https://github.com/hugomd/ascii.live)
